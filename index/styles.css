@@ -144,7 +144,8 @@ footer {
     font-size: 2rem;
     align-items: center;
 }
-
-.links {
-    
+/****style github img link
+#github {
+    max-width: 1px;
+    height: auto;
 }
