@@ -144,8 +144,26 @@ footer {
     font-size: 2rem;
     align-items: center;
 }
-/****style github img link
+/*style footer img link*/
+.footerLinks {
+}
+
 #github {
-    max-width: 1px;
+    width: 110px;
+    height: auto;
+}
+
+#email {
+    width: 80px;
+    height: auto;
+}
+
+#phone {
+    width: 70px;
+    height: auto;
+}
+
+#linkedIn {
+    width: 110px;
     height: auto;
 }
