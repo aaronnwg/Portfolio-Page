@@ -64,7 +64,6 @@ Projects section
 
 #projects-container { 
     display: grid;
-    grid-template-columns: 25% 75%;
     row-gap: 15px;
     column-gap: 10px;
     grid-template-rows: repeat(9, 100px);
@@ -74,6 +73,7 @@ Projects section
 
 .project {
     display: grid;
+    grid-template-columns: 25% 75%;
     width: 100%;
 }
 
