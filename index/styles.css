@@ -46,84 +46,82 @@ About Section
 /***************
 Projects section
 ***************/
-#projects {
-    background-color: red;
-    height: 1200px;
-    left: 0px;
-    margin-top: 15px;
-    padding: 1%;
-    width: 100%
-}
-
 #projects h2 {
     text-align: center;
     padding-top: 1%;
     padding-bottom: 3%;
 }
 
+
+#projects {
+    background-color: red;
+    height: 1200px;
+    left: 0px;
+    margin-top: 15px;
+    padding: 1%;
+    
+}
+
 #projects-container { 
-    width: 100%;
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 25% 75%;
     row-gap: 15px;
     column-gap: 10px;
-    grid-template-rows: repeat(9, 100px)
+    grid-template-rows: repeat(9, 100px);
+    background-color: green;
+
 }
 
 .project {
     display: grid;
+    width: 100%;
 }
 
 .project-link {
     grid-column-start: 1;
     grid-column-end: 2;
+    background-color: aquamarine;
 }
 .project-description {
-    grid-column-start: 2; /*not in correct column (should be in col 2)*/
+    grid-column-start: 2; 
+    background-color: darkblue;
 }
 
 #project-1 {
-    background-color: aquamarine;
+
    
 }
 
 #project-2 {
-    background-color: aquamarine;
+   
     grid-row: 2 / 3;
 }
 
 #project-3 {
-    background-color: aquamarine;
     grid-row: 3 / 4;
 }
 
 #project-4 {
-    background-color: aquamarine;
     grid-row: 4 / 5;
 }
 
 #project-5 {
-    background-color: aquamarine;
     grid-row: 5 / 6;
 }
 
 #project-6 {
-    background-color: aquamarine;
     grid-row: 6 / 7;
 }
 
 #project-7 {
-    background-color: aquamarine;
     grid-row: 7 / 8;
 }
 
 #project-8 {
-    background-color: aquamarine;
     grid-row: 8 / 9;
 }
 
 #project-9 {
-    background-color: aquamarine;
     grid-row: 9 / 10;
 }
 
@@ -144,9 +142,7 @@ footer {
     font-size: 2rem;
     align-items: center;
 }
-/*style footer img link*/
-.footerLinks {
-}
+
 
 #github {
     width: 110px;
