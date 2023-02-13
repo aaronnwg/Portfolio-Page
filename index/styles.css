@@ -50,6 +50,7 @@ Projects section
     text-align: center;
     padding-top: 1%;
     padding-bottom: 3%;
+    color: white;
 }
 
 
@@ -67,7 +68,7 @@ Projects section
     row-gap: 15px;
     column-gap: 10px;
     grid-template-rows: repeat(9, 100px);
-    background-color: green;
+    background-color: black;
 
 }
 
@@ -75,6 +76,7 @@ Projects section
     display: grid;
     grid-template-columns: 25% 75%;
     width: 100%;
+    
 }
 
 .project-link {
@@ -85,11 +87,13 @@ Projects section
 .project-description {
     grid-column-start: 2; 
     background-color: darkblue;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #project-1 {
-
-   
+    grid-row: 1 / 2;
+    
 }
 
 #project-2 {
