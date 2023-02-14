@@ -1,5 +1,6 @@
 html {
-
+    background-color: black;
+    color: white;
 }
 
 /*************
@@ -33,7 +34,7 @@ header {
 About Section
 ************/
 #about {
-    background-color: chartreuse;
+    background-color: darkslategray;
     left: 0px;
     margin-top: 90px;
     padding: 1%;
@@ -60,7 +61,7 @@ Projects section
     left: 0px;
     margin-top: 15px;
     padding: 1%;
-    
+    width: 100%;
 }
 
 #projects-container { 
@@ -74,7 +75,7 @@ Projects section
 
 .project {
     display: grid;
-    grid-template-columns: 25% 75%;
+    grid-template-columns: 15% 85%;
     width: 100%;
     
 }
@@ -82,7 +83,7 @@ Projects section
 .project-link {
     grid-column-start: 1;
     grid-column-end: 2;
-    background-color: aquamarine;
+    background-color: darkgreen;
 }
 .project-description {
     grid-column-start: 2; 
