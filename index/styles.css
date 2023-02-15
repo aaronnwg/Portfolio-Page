@@ -57,7 +57,7 @@ Projects section
 
 #projects {
     background-color: black;
-    height: 1600px;
+    height: 2100px;
     left: 0px;
     margin-top: 15px;
     padding: 1%;
@@ -68,7 +68,7 @@ Projects section
     display: grid;
     row-gap: 15px;
     column-gap: 10px;
-    grid-template-rows: repeat(9, 150px);
+    grid-template-rows: repeat(9, 200px);
     background-color: black;
 }
 
@@ -80,10 +80,23 @@ Projects section
     border-radius: 10px
 }
 
+.project-img {
+    width: 140px;
+    height: auto;
+    margin-top: 10px;
+    
+}
+.github-project {
+    width: 80px;
+    height: auto;
+
+}
+
 .project-link {
     grid-column-start: 1;
     grid-column-end: 2;
-    background-color: darkgreen;
+    background-color:  rgb(39, 39, 49);;
+    text-align: center;
 }
 .project-description {
     grid-column-start: 2; 
@@ -91,6 +104,7 @@ Projects section
     padding-left: 10px;
     padding-right: 10px;
 }
+
 
 #project-1 {
     grid-row: 1 / 2;
@@ -136,7 +150,7 @@ Footer Section
 *************/
 footer {
     position: bottom;
-    background-color: rgb(39, 39, 49);
+    background-color: rgb(183, 183, 202);
     left: 0px;
     margin-top: 15px;
     padding: 1%;
