@@ -34,7 +34,7 @@ header {
 About Section
 ************/
 #about {
-    background-color: darkslategray;
+    background-color: rgb(39, 39, 49);;
     left: 0px;
     margin-top: 90px;
     padding: 1%;
@@ -56,8 +56,8 @@ Projects section
 
 
 #projects {
-    background-color: red;
-    height: 1200px;
+    background-color: black;
+    height: 1600px;
     left: 0px;
     margin-top: 15px;
     padding: 1%;
@@ -68,16 +68,16 @@ Projects section
     display: grid;
     row-gap: 15px;
     column-gap: 10px;
-    grid-template-rows: repeat(9, 100px);
+    grid-template-rows: repeat(9, 150px);
     background-color: black;
-
 }
 
 .project {
     display: grid;
     grid-template-columns: 15% 85%;
     width: 100%;
-    
+    border: 5px solid #fff;
+    border-radius: 10px
 }
 
 .project-link {
@@ -94,7 +94,7 @@ Projects section
 
 #project-1 {
     grid-row: 1 / 2;
-    
+
 }
 
 #project-2 {
@@ -136,7 +136,7 @@ Footer Section
 *************/
 footer {
     position: bottom;
-    background-color: yellow;
+    background-color: rgb(39, 39, 49);
     left: 0px;
     margin-top: 15px;
     padding: 1%;
