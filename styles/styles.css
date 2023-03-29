@@ -1,6 +1,7 @@
 html {
     background-color: black;
     color: white;
+    font-family: sans-serif;
 }
 
 /*************
@@ -59,7 +60,7 @@ Projects section
     padding-bottom: 3%;
     color: white;
     font-size: 3rem;
-    font-weight: bold;
+  
 }
 
 #projects {
@@ -90,7 +91,6 @@ Projects section
 
 .project-title {
     font-size: 2rem;
-    font-weight: bold;
 }
 
 .project-description {
@@ -98,7 +98,7 @@ Projects section
     background-color: darkblue;
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-top: 0.5rem;
 }
 
