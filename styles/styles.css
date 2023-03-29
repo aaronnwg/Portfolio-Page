@@ -5,6 +5,10 @@ html {
     max-width: 100%;
     overflow-x: hidden;
 }
+* {
+    margin: 0;
+    padding: 0;
+  }
 
 /*************
 Navbar Section
@@ -28,13 +32,15 @@ header {
     justify-content: space-around;
     align-items: center;
 }
-
 .nav-link {
     color: white;
+    
 }
 .nav-link:hover {
     color: rgb(248, 248, 110);
-    font-size: 2.2rem;
+}
+.nav-link:active {
+    color: lightgray;
 }
 
 
@@ -68,10 +74,11 @@ Projects section
 #projects {
     background-color: black;
     height: 80rem;
-    
-    margin-top: 15px;
+    display: block;
+    margin: auto;
     padding: 1%;
     width: 100%;
+    
 }
 
 #projects-container { 
@@ -80,6 +87,8 @@ Projects section
     column-gap: 10px;
     grid-template-rows: repeat(5, 210px);
     background-color: black;
+    width: 97%;
+
 }
 
 .project {
@@ -101,6 +110,10 @@ Projects section
     padding-left: 10px;
     padding-right: 10px;
     font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+.project-description p{
     margin-top: 0.5rem;
 }
 
@@ -139,7 +152,7 @@ Projects section
     display: block;
 }
 .project-img:hover {
-    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    box-shadow: rgb(228, 223, 210) 0 4px 8px, rgb(228, 223, 210) 0 6px 7px -3px, #D6D6E7 0 -3px 0 inset;;
     transform: translateY(-2px);
 }
 .project-img:focus {
@@ -181,7 +194,7 @@ Projects section
     box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
 }
 .github-button:hover {
-    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    box-shadow: rgb(228, 223, 210) 0 4px 6px, rgb(228, 223, 210) 0 5px 4px -3px, #D6D6E7 0 -3px 0 inset;
     transform: translateY(-2px);
 } 
 .github-button:active {
