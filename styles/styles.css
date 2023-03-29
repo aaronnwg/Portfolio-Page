@@ -2,6 +2,8 @@ html {
     background-color: black;
     color: white;
     font-family: sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 /*************
@@ -41,12 +43,12 @@ About Section
 ************/
 #about {
     background-color: rgb(39, 39, 49);;
-    left: 0px;
     margin-top: 90px;
     padding: 1%;
     text-align: center;
     height: 300px;
     width: 100%;
+    border-bottom: white 3px;
 }
 
 
@@ -66,7 +68,7 @@ Projects section
 #projects {
     background-color: black;
     height: 80rem;
-    left: 0px;
+    
     margin-top: 15px;
     padding: 1%;
     width: 100%;
