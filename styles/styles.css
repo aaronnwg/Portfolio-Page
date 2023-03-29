@@ -51,13 +51,15 @@ About Section
 /***************
 Projects section
 ***************/
-#projects h2 {
+#projects-header {
+    display: block;
     text-align: center;
     padding-top: 1%;
     padding-bottom: 3%;
     color: white;
+    font-size: 3rem;
+    font-weight: bold;
 }
-
 
 #projects {
     background-color: black;
@@ -82,8 +84,46 @@ Projects section
     width: 100%;
     border: 5px solid #fff;
     border-radius: 10px;
+    background-color: darkblue;
 }
 
+.project-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.project-description {
+    grid-column-start: 2; 
+    background-color: darkblue;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+#project-1 {
+    grid-row: 1 / 2;
+}
+#project-2 {
+    grid-row: 2 / 3;
+}
+#project-3 {
+    grid-row: 3 / 4;
+}
+#project-4 {
+    grid-row: 4 / 5;
+}
+#project-5 {
+    grid-row: 5 / 6;
+}
+
+/* project links */
+.project-link {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color:  rgb(39, 39, 49);;
+    text-align: center;
+}
 .project-img {
     width: 140px;
     height: auto;
@@ -107,6 +147,7 @@ Projects section
     transform: translateY(2px);
 }
 
+/*github links */
 .github-button {
     width: 80px;
     height: auto;
@@ -138,53 +179,10 @@ Projects section
 .github-button:hover {
     box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
     transform: translateY(-2px);
-}
-  
+} 
 .github-button:active {
     box-shadow: #D6D6E7 0 3px 7px inset;
     transform: translateY(2px);
-}
-
-.project-link {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    background-color:  rgb(39, 39, 49);;
-    text-align: center;
-}
-.project-description {
-    grid-column-start: 2; 
-    background-color: darkblue;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-
-#project-1 {
-    grid-row: 1 / 2;
-}
-#project-2 {
-    grid-row: 2 / 3;
-}
-#project-3 {
-    grid-row: 3 / 4;
-}
-#project-4 {
-    grid-row: 4 / 5;
-}
-#project-5 {
-    grid-row: 5 / 6;
-}
-#project-6 {
-    grid-row: 6 / 7;
-}
-#project-7 {
-    grid-row: 7 / 8;
-}
-#project-8 {
-    grid-row: 8 / 9;
-}
-#project-9 {
-    grid-row: 9 / 10;
 }
 
 
