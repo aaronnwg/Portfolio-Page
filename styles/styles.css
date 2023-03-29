@@ -85,7 +85,7 @@ Projects section
     display: grid;
     row-gap: 15px;
     column-gap: 10px;
-    grid-template-rows: repeat(5, 210px);
+    grid-template-rows: repeat(5, 204px);
     background-color: black;
     width: 97%;
 
@@ -145,9 +145,9 @@ Projects section
     height: auto;
     margin:auto;
     margin-top: 1rem;
-    border: 3px solid #fff;
+    border: 1px solid black;
     border-radius: 20px;
-    
+    transition: box-shadow .15s,transform .15s;
     margin: 10px, auto, 10px, auto;
     display: block;
 }
@@ -167,27 +167,18 @@ Projects section
 .github-button {
     width: 80px;
     height: auto;
-    border: 3px solid #fff;
-    margin-top: 1rem;
+    margin-top: 1.4rem;
     padding: 0;
     border-radius: 10px;
     background-color: #FCFCFD;
-    border-width: 0;
     box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
     box-sizing: border-box;
-    color: #36395A;
     cursor: pointer;
     display: inline-flex;
-    overflow: hidden;
     padding-left: 16px;
     padding-right: 16px;
     position: relative;
     transition: box-shadow .15s,transform .15s;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    white-space: nowrap;
-    will-change: box-shadow, transform;
     z-index: 1;
 }
 .gitub-button:focus {
