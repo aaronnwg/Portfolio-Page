@@ -61,7 +61,7 @@ Projects section
 
 #projects {
     background-color: black;
-    height: 2100px;
+    height: 80rem;
     left: 0px;
     margin-top: 15px;
     padding: 1%;
@@ -72,7 +72,7 @@ Projects section
     display: grid;
     row-gap: 15px;
     column-gap: 10px;
-    grid-template-rows: repeat(9, 200px);
+    grid-template-rows: repeat(5, 210px);
     background-color: black;
 }
 
@@ -81,31 +81,40 @@ Projects section
     grid-template-columns: 15% 85%;
     width: 100%;
     border: 5px solid #fff;
-    border-radius: 10px
+    border-radius: 10px;
 }
 
 .project-img {
     width: 140px;
     height: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin:auto;
+    margin-top: 1rem;
     border: 3px solid #fff;
-    border-radius: 10px;
+    border-radius: 20px;
+    
+    margin: 10px, auto, 10px, auto;
+    display: block;
 }
 .project-img:hover {
-    
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+.project-img:focus {
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+.project-img:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
 }
 
 .github-button {
     width: 80px;
     height: auto;
     border: 3px solid #fff;
-    margin: 0;
+    margin-top: 1rem;
     padding: 0;
     border-radius: 10px;
-
     background-color: #FCFCFD;
-
     border-width: 0;
     box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
     box-sizing: border-box;
@@ -129,12 +138,12 @@ Projects section
 .github-button:hover {
     box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
     transform: translateY(-2px);
-  }
+}
   
-  .github-button:active {
+.github-button:active {
     box-shadow: #D6D6E7 0 3px 7px inset;
     transform: translateY(2px);
-  }
+}
 
 .project-link {
     grid-column-start: 1;
@@ -215,58 +224,4 @@ footer {
 #linkedIn {
     width: 110px;
     height: auto;
-}
-
-
-
-
-
-
-<!-- HTML !-->
-<button class="button-30" role="button">Button 30</button>
-
-/* CSS */
-.button-30 {
-  align-items: center;
-  appearance: none;
-  background-color: #FCFCFD;
-  border-radius: 4px;
-  border-width: 0;
-  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
-  box-sizing: border-box;
-  color: #36395A;
-  cursor: pointer;
-  display: inline-flex;
-  font-family: "JetBrains Mono",monospace;
-  height: 48px;
-  justify-content: center;
-  line-height: 1;
-  list-style: none;
-  overflow: hidden;
-  padding-left: 16px;
-  padding-right: 16px;
-  position: relative;
-  text-align: left;
-  text-decoration: none;
-  transition: box-shadow .15s,transform .15s;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  white-space: nowrap;
-  will-change: box-shadow,transform;
-  font-size: 18px;
-}
-
-.button-30:focus {
-  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
-}
-
-.button-30:hover {
-  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
-  transform: translateY(-2px);
-}
-
-.button-30:active {
-  box-shadow: #D6D6E7 0 3px 7px inset;
-  transform: translateY(2px);
 }
