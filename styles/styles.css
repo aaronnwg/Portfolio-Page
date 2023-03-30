@@ -1,6 +1,5 @@
 html {
-    background-color: #ffd42d;
-    color: #000;
+    background-color: #e7eeed;
     font-family: Arial, Helvetica, sans-serif;
     max-width: 100%;
     overflow-x: hidden;
@@ -16,7 +15,7 @@ Navbar Section
 header {
     width: 100%;
     height: 170px;
-    background-color: #ffd42d;
+    background-color: #133cb8;
     position: fixed;
     top: 0px;
     z-index: 3;
@@ -29,6 +28,7 @@ header {
     margin-top: 30px;
     font-size: 2.25rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
 }
 
 #nav-bar {
@@ -41,11 +41,11 @@ header {
     letter-spacing: 0.1rem;
 }
 .nav-link {
-    color: #000;
+    color: #fff;
     text-decoration: none;
 }
 .nav-link:hover {
-    color: #fff;
+    color: #8ef1bf;
 }
 .nav-link:active {
     color: rgb(97, 97, 97);
@@ -56,13 +56,13 @@ header {
 About Section
 ************/
 #about {
-    background-color: #ffd42d;
+    background-color: #e7eeed;
     margin-top: 170px;
     padding-top: 5%;
     height: auto;
     width: 100%;
     border-bottom: 0.005rem solid #000 ;
-
+    color: #212121;
 }
 #about-container {
     width: 40%;
@@ -73,6 +73,7 @@ About Section
 #about-container span {
     font-weight: bold;
     font-size: 1.875rem;
+    color:#133cb8;
 }
 #about-container p {
     font-size: 1rem;
@@ -89,13 +90,13 @@ Projects section
     text-align: center;
     padding-top: 4%;
     padding-bottom: 4%;
-    color: #Fff;
+    color: #8ef1bf;
     font-size: 6.25rem;
     font-weight: bold;
 }
 
 #projects {
-    background-color: #ffd42d;
+    background-color: #133cb8;
     height: 100rem;
     display: block;
     margin: auto;
@@ -109,7 +110,7 @@ Projects section
     row-gap: 15px;
     column-gap: 10px;
     grid-template-rows: repeat(6, 13rem);
-    background-color: #ffd42d;
+    background-color: #133cb8;
     width: 70%;
     margin: 0 auto;
 
@@ -125,7 +126,8 @@ Projects section
 .project-title {
     font-size: 1.5rem;
     font-weight: bold;
-    letter-spacing:0.05rem
+    letter-spacing:0.05rem;
+    color: #040404;
 }
 
 .project-description {
@@ -134,7 +136,7 @@ Projects section
     padding: 20px;
     font-size: 1rem;
     margin: 1rem;
-    color: #000;
+    color: #040404;
 }
 .project-description p{
     margin-top: 1rem;
@@ -226,7 +228,7 @@ Footer Section
 *************/
 footer {
     position: bottom;
-    background-color: #f1f5f5;
+    background-color: #e7eeed;
     padding-top: 15px;
     height: 80px;
     display: flex;
