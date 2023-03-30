@@ -1,6 +1,6 @@
 html {
-    background-color: black;
-    color: white;
+    background-color: #ffd42d;
+    color: black;
     font-family: ;
     max-width: 100%;
     overflow-x: hidden;
@@ -15,18 +15,19 @@ Navbar Section
 *************/
 header {
     width: 100%;
-    height: 150px;
-    background-color: blue;
+    height: 170px;
+    background-color: #ffd42d;
     position: fixed;
     top: 0px;
     left: 0px;
     z-index: 3;
+    border-bottom: 0.02rem solid black ;
 }
 header div{
     text-align: center;
     border-bottom: 0.02rem solid black ;
-    padding-bottom: 10px;
     height: 60px;
+    margin-top: 30px;
     font-size: 2rem;
 }
 
@@ -35,18 +36,18 @@ header div{
     width: 100%;
     justify-content: space-around;
     align-items: center;
-    margin-top: 30px;
-    font-size: 1rem;
+    margin-top: 20px;
+    font-size: 1.4rem;
 }
 .nav-link {
-    color: white;
+    color: black;
     
 }
 .nav-link:hover {
-    color: rgb(248, 248, 110);
+    color: #fff;
 }
 .nav-link:active {
-    color: lightgray;
+    color: rgb(97, 97, 97);
 }
 
 
@@ -54,13 +55,21 @@ header div{
 About Section
 ************/
 #about {
-    background-color: rgb(39, 39, 49);;
-    margin-top: 90px;
-    padding: 1%;
-    text-align: center;
+    background-color: #ffd42d;
+    margin-top: 170px;
+    padding-top: 5%;
+    
     height: 300px;
     width: 100%;
-    border-bottom: 3px solid white ;
+    border-bottom: 0.02rem solid black ;
+
+}
+#about-container {
+    width: 40%;
+    margin: 0 auto;
+}
+#about-container h1 {
+    margin-bottom: 10px;
 }
 
 
@@ -72,13 +81,13 @@ Projects section
     text-align: center;
     padding-top: 1%;
     padding-bottom: 3%;
-    color: white;
+    color: black;
     font-size: 3rem;
   
 }
 
 #projects {
-    background-color: black;
+    background-color: #ffd42d;
     height: 80rem;
     display: block;
     margin: auto;
@@ -92,14 +101,15 @@ Projects section
     row-gap: 15px;
     column-gap: 10px;
     grid-template-rows: repeat(5, 204px);
-    background-color: black;
-    width: 97%;
+    background-color: #ffd42d;
+    width: 77%;
+    margin: 0 auto;
 
 }
 
 .project {
     display: grid;
-    grid-template-columns: 15% 85%;
+    grid-template-columns: 30% 70%;
     width: 100%;
     border: 5px solid #fff;
     border-radius: 10px;
