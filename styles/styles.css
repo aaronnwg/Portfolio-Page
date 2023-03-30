@@ -19,7 +19,6 @@ header {
     background-color: #ffd42d;
     position: fixed;
     top: 0px;
-    left: 0px;
     z-index: 3;
     border-bottom: 0.05rem solid #000 ;
 }
@@ -228,7 +227,6 @@ Footer Section
 footer {
     position: bottom;
     background-color: rgb(183, 183, 202);
-    left: 0px;
     padding-top: 15px;
     height: 80px;
     display: flex;
@@ -239,26 +237,28 @@ footer {
     align-items: center;
 }
 footer div{
-    width: 30%
+    width: 19rem;
+    margin: 0 auto;
 }
 
 
 #github {
-    width: 110px;
+    width: 5rem;
     height: auto;
 }
 
 #email {
-    width: 80px;
+    width: 3.8rem;
     height: auto;
+    margin-right: 0.5rem
 }
 
 #phone {
-    width: 70px;
+    width: 3rem;
     height: auto;
 }
 
 #linkedIn {
-    width: 110px;
+    width: 4.6rem;
     height: auto;
 }
