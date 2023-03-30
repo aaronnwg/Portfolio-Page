@@ -11,11 +11,11 @@
 
     <!--Header-->
     <header>
-        <div>Aaron Kessler</div>
+        <div id="header-name">Aaron Kessler</div>
         <nav id='nav-bar'>
-            <a class='nav-link' id="nav-link-1" href='#about'>Info</a>
-            <a class='nav-link' id="nav-link-2" href="#projects">Projects</a>
-            <a class='nav-link' id="nav-link-3" href="#contact">Contact</a>
+            <a class='nav-link' id="nav-link-1" href='#about'>INTRO</a>
+            <a class='nav-link' id="nav-link-2" href="#projects">PROJECTS</a>
+            <a class='nav-link' id="nav-link-3" href="#contact">CONTACT</a>
         </nav>
     </header>
     <main>
@@ -23,14 +23,14 @@
         <!--About Section-->
         <section id="about">
             <div id="about-container">
-                <h1>Hi, I'm Aaron</h1>
-                <h3>Motivated entry level SQL and web development professional who loves learning new things. Possessing strong critical thinking abilities, skilled at creating and analyzing data structures and algorithms, pattern and trend identification, problem-solving and troubleshooting. I’m looking forward to opportunities that will help me grow, and where I can contribute with my technical and management skills, to help advance the success of the company.</h3>
+                <span>Hi, I'm Aaron</span>
+                <p>Motivated entry level SQL and web development professional who loves learning new things. Possessing strong critical thinking abilities, skilled at creating and analyzing data structures and algorithms, pattern and trend identification, problem-solving and troubleshooting. I’m looking forward to opportunities that will help me grow, and where I can contribute with my technical and management skills, to help advance the success of the company.</p>
             </div>
         </section>
 
         <!--Projects Section-->
         <section id="projects">
-            <span id="projects-header">Projects.</span>
+            <span id="projects-header">PROJECTS.</span>
             <div id="projects-container">
 
                 <!--Project 1-->
@@ -92,15 +92,29 @@
                     </span>
                     <div class="project-description"><span class="project-title">Cash Register</span><p>This is a Javascript Cash-Register app. There are two input fields; one for purchase price, and one for paymen amount. When the return change button is clicked, the amount of change to return is then displyed by the bill values and their respective dollar amounts. </p></div>
                 </div>
+                <!--Project 6-->
+                <div id="project-6" class="project">
+                    <span class="project-link">
+                        <a href="" alt="Click to View Quote Machine" target="_blank">
+                            <img class="project-img" src='./images/AppointmentPlannerImg.png'>
+                        </a>
+                        <a href='https://github.com/aaronnwg/Quote-Machine' target="_blank">
+                            <img class="github-button" src='./images/githubButtonWhite.png'>
+                        </a>
+                    </span>
+                    <div class="project-description"><span class="project-title">Quote Machine</span><p>The Quote Machine will produce a random quote when activated. It was built using JQuery</p></div>
+                </div>
             </div>
         </section>
     </main>
 
     <!--Contact-->
     <footer id="contact">
-        <a  class="footerLinks" href='https://github.com/aaronnwg' target="_blank"><img id="github" src='../images/gtihubLogo1.png'></a>
-        <a  class="footerLinks" href='mailto:aaronkessler98@gmail.com' target="_blank"><img id="email" src='../images/emailLogo.png'></a>
-        <a  class="footerLinks" href='tel:+3037268495' target="_blank"><img id="phone" src='../images/phoneLogo.png'></a>
-        <a  class="footerLinks" href='https://www.linkedin.com/in/aaron-kessler-392abb179/' target="_blank"><img id="linkedIn" src='../images/linkedinLogo.png'></a>
+        <div>
+            <a  class="footerLinks" href='https://github.com/aaronnwg' target="_blank"><img id="github" src='../images/gtihubLogo1.png'></a>
+            <a  class="footerLinks" href='mailto:aaronkessler98@gmail.com' target="_blank"><img id="email" src='../images/emailLogo.png'></a>
+            <a  class="footerLinks" href='tel:+3037268495' target="_blank"><img id="phone" src='../images/phoneLogo.png'></a>
+            <a  class="footerLinks" href='https://www.linkedin.com/in/aaron-kessler-392abb179/' target="_blank"><img id="linkedIn" src='../images/linkedinLogo.png'></a>
+        </div>
     </footer>
 </body>

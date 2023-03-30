@@ -1,7 +1,7 @@
 html {
     background-color: #ffd42d;
-    color: black;
-    font-family: ;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -21,27 +21,29 @@ header {
     top: 0px;
     left: 0px;
     z-index: 3;
-    border-bottom: 0.02rem solid black ;
+    border-bottom: 0.05rem solid #000 ;
 }
-header div{
+#header-name {
     text-align: center;
-    border-bottom: 0.02rem solid black ;
+    border-bottom: 0.005rem solid #000 ;
     height: 60px;
     margin-top: 30px;
-    font-size: 2rem;
+    font-size: 2.25rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #nav-bar {
     display: flex;
-    width: 100%;
+    width: 30%;
     justify-content: space-around;
-    align-items: center;
-    margin-top: 20px;
-    font-size: 1.4rem;
+    margin: 0 auto;
+    padding-top: 20px;
+    font-size: 0.875rem;
+    letter-spacing: 0.1rem;
 }
 .nav-link {
-    color: black;
-    
+    color: #000;
+    text-decoration: none;
 }
 .nav-link:hover {
     color: #fff;
@@ -58,18 +60,25 @@ About Section
     background-color: #ffd42d;
     margin-top: 170px;
     padding-top: 5%;
-    
-    height: 300px;
+    height: auto;
     width: 100%;
-    border-bottom: 0.02rem solid black ;
+    border-bottom: 0.005rem solid #000 ;
 
 }
 #about-container {
     width: 40%;
     margin: 0 auto;
+    height: auto;
+    margin-top: 60px;
 }
-#about-container h1 {
-    margin-bottom: 10px;
+#about-container span {
+    font-weight: bold;
+    font-size: 1.875rem;
+}
+#about-container p {
+    font-size: 1rem;
+    line-height: 2;
+    margin: 30px 0px 140px 0px;
 }
 
 
@@ -79,16 +88,16 @@ Projects section
 #projects-header {
     display: block;
     text-align: center;
-    padding-top: 1%;
-    padding-bottom: 3%;
-    color: black;
-    font-size: 3rem;
-  
+    padding-top: 4%;
+    padding-bottom: 4%;
+    color: #Fff;
+    font-size: 6.25rem;
+    font-weight: bold;
 }
 
 #projects {
     background-color: #ffd42d;
-    height: 80rem;
+    height: 100rem;
     display: block;
     margin: auto;
     padding: 1%;
@@ -100,9 +109,9 @@ Projects section
     display: grid;
     row-gap: 15px;
     column-gap: 10px;
-    grid-template-rows: repeat(5, 204px);
+    grid-template-rows: repeat(6, 13rem);
     background-color: #ffd42d;
-    width: 77%;
+    width: 70%;
     margin: 0 auto;
 
 }
@@ -111,26 +120,25 @@ Projects section
     display: grid;
     grid-template-columns: 30% 70%;
     width: 100%;
-    border: 5px solid #fff;
-    border-radius: 10px;
-    background-color: darkblue;
+    background-color: #fff;
 }
 
 .project-title {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing:0.05rem
 }
 
 .project-description {
     grid-column-start: 2; 
-    background-color: darkblue;
-    padding-left: 10px;
-    padding-right: 10px;
+    background-color: #fff;
+    padding: 20px;
     font-size: 1rem;
-    margin-top: 0.5rem;
+    margin: 1rem;
+    color: #000;
 }
-
 .project-description p{
-    margin-top: 0.5rem;
+    margin-top: 1rem;
 }
 
 #project-1 {
@@ -148,20 +156,23 @@ Projects section
 #project-5 {
     grid-row: 5 / 6;
 }
+#project-6 {
+    grid-row: 6 / 7;
+}
 
 /* project links */
 .project-link {
     grid-column-start: 1;
     grid-column-end: 2;
-    background-color:  rgb(39, 39, 49);;
+    background-color:   #a6aaa2;
     text-align: center;
 }
 .project-img {
-    width: 140px;
+    width: 10rem;
     height: auto;
     margin:auto;
     margin-top: 1rem;
-    border: 1px solid black;
+    border: 1px solid #000;
     border-radius: 20px;
     transition: box-shadow .15s,transform .15s;
     margin: 10px, auto, 10px, auto;
@@ -182,7 +193,7 @@ Projects section
 
 /*github links */
 .github-button {
-    width: 80px;
+    width: 6rem;
     height: auto;
     margin-top: 1.4rem;
     padding: 0;
@@ -218,14 +229,17 @@ footer {
     position: bottom;
     background-color: rgb(183, 183, 202);
     left: 0px;
-    margin-top: 15px;
-    padding: 1%;
+    padding-top: 15px;
     height: 80px;
     display: flex;
     width: 100%;
     justify-content: space-around;
+    margin: 0 auto;
     font-size: 2rem;
     align-items: center;
+}
+footer div{
+    width: 30%
 }
 
 
