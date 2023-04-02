@@ -62,23 +62,22 @@ About Section
 ************/
 #about {
     background-color: #e7eeed;
-    margin-top: 170px;
+    margin-top: 10.625rem;
     padding-top: 5%;
-    height: auto;
     width: 100%;
     border-bottom: 0.005rem solid #000 ;
     color: #212121;
 }
 #about-container {
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
     height: auto;
-    margin-top: 60px;
+    margin-top: 1rem;
     display: flex;
 }
 #toy-me {
     width: auto;
-    height: 20rem;
+    height: 22rem;
 }
 #about-container span {
     font-weight: bold;
@@ -89,6 +88,10 @@ About Section
     font-size: 1rem;
     line-height: 2;
     margin: 30px 0px 140px 0px;
+}
+#about-content{
+   margin-left: 2rem;
+   margin-top: 2rem;
 }
 
 /***************
