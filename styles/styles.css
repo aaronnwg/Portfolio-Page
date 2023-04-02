@@ -18,7 +18,7 @@ header {
     background-color: #133cb8;
     position: fixed;
     top: 0px;
-    z-index: 3;
+    z-index: 5;
     border-bottom: 0.02rem solid #000 ;
 }
 #header-name {
@@ -70,10 +70,15 @@ About Section
     color: #212121;
 }
 #about-container {
-    width: 40%;
+    width: 60%;
     margin: 0 auto;
     height: auto;
     margin-top: 60px;
+    display: flex;
+}
+#toy-me {
+    width: auto;
+    height: 20rem;
 }
 #about-container span {
     font-weight: bold;
@@ -85,7 +90,6 @@ About Section
     line-height: 2;
     margin: 30px 0px 140px 0px;
 }
-
 
 /***************
 Projects section
@@ -241,7 +245,7 @@ footer {
     padding-top: 2rem;
 }
 
-#link-container{
+#footer-container{
     width: 100%;
     display: flex;
 }
@@ -260,6 +264,13 @@ footer {
     font-weight: bold;
     font-size: 1.5rem;
     letter-spacing: 0.05rem;
+}
+#rock {
+    width: auto;
+    height: 10rem;
+    z-index: 3;
+    position: absolute;
+    margin-left: 10rem;
 }
 #contact {
     width: 30%;
