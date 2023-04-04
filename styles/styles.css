@@ -8,6 +8,13 @@ html {
     margin: 0;
     padding: 0;
   }
+@media only screen and (max-width: 640px) {
+   html {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0 auto;
+   }
+}
 
 /*************
 Navbar Section
@@ -56,6 +63,11 @@ header {
     color: rgb(97, 97, 97);
 }
 
+@media only screen and (max-width: 640px){
+    .nav-link {
+        padding: 1rem;
+       }
+}
 
 /************
 Intro Section
@@ -87,11 +99,43 @@ Intro Section
 #intro-container p {
     font-size: 1rem;
     line-height: 2;
-    margin: 30px 0px 140px 0px;
+    margin: 1.875rem 0 8.75rem 0;
 }
 #intro-content{
    margin-left: 2rem;
    margin-top: 2rem;
+}
+
+@media only screen and (max-width: 1007px) {
+   #intro-container {
+    width: 60%;
+   }
+    #intro-container p {
+    line-height: 1.2;
+   }
+
+}
+@media only screen and (max-width: 640px) {
+    #intro-content {
+        margin-left: 0;
+        text-align: center;
+    }
+    #intro-container {
+        display: block;
+        width: 90%;
+    }
+    #toy-container{
+        width: 100%;
+    }
+    #toy-me {
+        width: auto;
+        height: 16rem;
+        display: block;
+        margin: auto;
+    }
+    #intro-container p {
+        margin-bottom: 4rem;
+    }
 }
 
 /***************
@@ -109,7 +153,7 @@ Projects section
 
 #projects {
     background-color: #133cb8;
-    height: 100rem;
+    height: 87rem;
     display: block;
     margin: auto;
     padding: 1%;
@@ -119,8 +163,8 @@ Projects section
 
 #projects-container { 
     display: grid;
-    row-gap: 15px;
-    column-gap: 10px;
+    row-gap: 0.9375rem;
+    column-gap: 0.625rem;
     grid-template-rows: repeat(6, 13rem);
     background-color: #133cb8;
     width: 70%;
@@ -234,6 +278,38 @@ Projects section
     transform: translateY(2px);
 }
 
+@media only screen and (max-width: 640px){
+    .project {
+        display: block;
+        padding: 1rem;
+        margin-bottom: 1rem;
+
+    }
+    #projects {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10rem;
+        padding: 0;
+    }
+    #projects-header {
+        max-width: 640px;
+        font-size: 3rem;
+    }
+    #projects-container{
+        display: block;
+        max-width: 100%;
+    /*fix this*/
+    }
+    .project-link {
+        background-color: #a6aaa2;
+        padding: 0.5rem 0 1rem 0;
+        width: 75%;
+        margin: 0 auto;
+    }
+    .project-img {
+        border-radius: 0;
+    }
+}
 
 /*************
 Footer Section
@@ -259,21 +335,18 @@ footer {
     width: 30%;
     padding-top: 1.9rem;
 }
-#reach-out {
+#footer-center {
     width: 40%;
     padding-top: 1.7rem;
     border-left: 0.02rem solid black;
     border-right: 0.02rem solid black;
-    font-weight: bold;
-    font-size: 1.5rem;
-    letter-spacing: 0.05rem;
 }
 #rock {
     width: auto;
     height: 10rem;
     z-index: 3;
     position: absolute;
-    margin-left: 10rem;
+    align-items: center;
 }
 #contact {
     width: 30%;
@@ -309,4 +382,23 @@ footer {
     border-left: 0.02rem solid black;
     border-right: 0.02rem solid black;
     font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 640px) {
+    /*#footer-center {
+        border: none;
+        width: 20%;
+    }
+    #contact p {
+        display: none;
+    }
+    #footer-github-linkedin {
+        width: 40%;
+    }
+    #contact{
+        width: 40%;
+    }*/
+    footer {
+     display: none;
+    }
 }
