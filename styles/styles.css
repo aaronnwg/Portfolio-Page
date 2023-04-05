@@ -277,6 +277,10 @@ Projects section
     box-shadow: #D6D6E7 0 3px 7px inset;
     transform: translateY(2px);
 }
+#responsive-footer {
+    display: none;
+}
+
 
 @media only screen and (max-width: 640px){
     .project {
@@ -299,7 +303,7 @@ Projects section
         display: block;
         max-width: 100%;
         margin: 0 auto;
-    /*fix this*/
+        padding-bottom: 2rem;
     }
     .project-link {
         background-color: #a6aaa2;
@@ -342,13 +346,6 @@ footer {
     border-left: 0.02rem solid black;
     border-right: 0.02rem solid black;
 }
-#rock {
-    width: auto;
-    height: 10rem;
-    z-index: 3;
-    position: absolute;
-    align-items: center;
-}
 #contact {
     width: 30%;
     padding-top: 1.4rem;
@@ -386,20 +383,65 @@ footer {
 }
 
 @media only screen and (max-width: 640px) {
-    /*#footer-center {
-        border: none;
-        width: 20%;
-    }
-    #contact p {
-        display: none;
-    }
-    #footer-github-linkedin {
-        width: 40%;
-    }
-    #contact{
-        width: 40%;
-    }*/
     footer {
      display: none;
     }
+    #responsive-footer {
+        display: block;
+        background-color: #8ef1bf;
+        height: 11rem;
+        width: 100%;
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+    #responsive-footer-container{
+        width: 100%;
+        display: flex;
+        background-color: #e7eeed;
+        padding-bottom: 1rem;
+    }
+    .footer-content{
+        height: 4.5rem;
+    }
+    #responsive-github-linkedin {
+        width: 25%;
+        padding-top: 1.9rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #responsive-right {
+        width: 25%;
+        padding-top: 1.7rem;
+    }
+    #responsive-contact {
+        width: 50%;
+        padding-top: 1.4rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.125rem;
+    }
+    #github {
+        width: 1.7rem;
+        height: auto;
+    }
+    #linkedIn {
+        width: 1.7rem;
+        height: auto;
+    }
+    #resume {
+        color: #8ef1bf
+    }
+    #responsive-base {
+        border-top: 0.02rem solid black;
+        padding-top: 1rem;
+        background-color: #8ef1bf;
+    }
+    
+    #responsive-base span{
+        font-style: italic;
+        padding: 0 1rem 0 1rem;
+        font-size: 0.8rem;
+    }
+    
 }
