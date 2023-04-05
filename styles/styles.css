@@ -67,6 +67,9 @@ header {
     .nav-link {
         padding: 1rem;
        }
+    #header-name span{
+        border: none;
+       }
 }
 
 /************
@@ -339,12 +342,16 @@ footer {
 #footer-github-linkedin {
     width: 30%;
     padding-top: 1.9rem;
+    align-items: center;
 }
 #footer-center {
     width: 40%;
     padding-top: 1.7rem;
     border-left: 0.02rem solid black;
     border-right: 0.02rem solid black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #133cb8
 }
 #contact {
     width: 30%;
@@ -352,34 +359,38 @@ footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.125rem;
 }
+#contact a{
+    color: #133cb8;
+}
 .footer-links-right {
     text-decoration: none;
     color: #000;
     display: block;
     padding: 5px;
 }
-
 #github {
     width: 4rem;
     height: auto;
+    padding-right: 1rem;
 }
 #linkedIn {
-    width: 3.9rem;
+    width: 3.7rem;
     height: auto;
 }
-
 #base-container {
     margin-top: 1rem;
     border-top: 0.02rem solid black;
     padding-top: 1rem;
 }
-
 #base-container span{
     font-style: italic;
     padding: 0 1rem 0 1rem;
     border-left: 0.02rem solid black;
     border-right: 0.02rem solid black;
     font-size: 0.8rem;
+}
+#contact a:hover {
+    color: #8ef1bf;
 }
 
 @media only screen and (max-width: 640px) {
@@ -424,24 +435,25 @@ footer {
     #github {
         width: 1.7rem;
         height: auto;
+        background-color: #e7eeed;
     }
     #linkedIn {
         width: 1.7rem;
         height: auto;
-    }
-    #resume {
-        color: #8ef1bf
+        background-color: #e7eeed;
     }
     #responsive-base {
         border-top: 0.02rem solid black;
         padding-top: 1rem;
         background-color: #8ef1bf;
     }
-    
     #responsive-base span{
         font-style: italic;
         padding: 0 1rem 0 1rem;
         font-size: 0.8rem;
+    }
+    .footer-links-right:hover {
+        color: #8ef1bf;
     }
     
 }
